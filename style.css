@@ -80,6 +80,11 @@ nav img {
 
 .text-box h1{
     font-size: 62px;
+    background: rgb(0,156,190);
+background: linear-gradient(90deg, rgba(0,156,190,0.9632002459186799) 0%, rgba(134,15,217,0.9379901618850666) 18%, rgba(175,15,217,0.9379901618850666) 47%, rgba(217,15,150,0.9379901618850666) 67%, rgba(217,15,211,0.9379901618850666) 88%);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .text-box p{
@@ -188,6 +193,7 @@ nav .fa-solid {
     font-weight: 300px;
     line-height: 22px;
     padding: 10px;
+    text-align: justify;
 }
 .row{
     margin-top: 5%;
@@ -231,6 +237,13 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+
+.campus p{
+    padding: 15px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 15px;
 
 }
 
@@ -285,6 +298,10 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+
+.facilities p{
+    text-align: justify;
 }
 
 .facilities-col{
@@ -347,7 +364,7 @@ h3 {
 }
 
 .testimonial-col p {
-    padding: 0;
+    padding: 0; text-align: justify;
 }
 .testimonial-col h3{
     margin-top: 15px;
@@ -363,6 +380,10 @@ color: #be1609dc;
         margin-left: 0px;
         margin-right: 15px;
     }
+    .testimonials p{
+        text-align: justify;
+    }
+
 }
 
 /* ------ Call to action------ */
@@ -403,6 +424,10 @@ color: #be1609dc;
 
 .sub-header h1{
     margin-top: -30px;
+    font-size: xxx-large;
+    background: linear-gradient(90deg, rgba(0,209,255,1) 0%, rgba(168,29,170,1) 40%, rgba(219,22,101,1) 74%, rgba(255,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -465,10 +490,14 @@ color: #be1609dc;
     margin: 30px 0;
 }
 
-.blog-lef p {
+.blog-lef p,ul {
     color: #999;
     padding: 0;
-    word-spacing: 1.3px;
+   
+}
+
+.blog-lef ul {
+    padding: 0 20px;
 }
 
 .blog-right{
